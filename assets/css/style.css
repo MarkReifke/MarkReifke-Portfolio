@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: burlywood;/* change color */
+}
+.header{
+    padding-top: 15px;
+    padding-left: 30px;
+    color:darkblue;/* change color */
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    background-color: aquamarine;/* change color */
+}
+.header nav{
+    padding-top: 50px;
+    padding-right: 50px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: black;/* change color and maybe fix to make fill full area */
+}
+.header nav ul{ 
+    list-style-type: none;
+}
+.header nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.a{
+    color: darkgreen;/* change color */
+    text-decoration: none;
+    padding: 15px;
+    border-style: solid;
+    background-color: beige;/* change color */
+}
+.b{
+    color: darkorange;/* change color */
+    text-decoration: none;
+    padding: 15px;
+    border-style: solid;
+    background-color: beige;/* change color */
+}
+.c{
+    color: darkred;/* change color */
+    text-decoration: none;
+    padding: 15px;
+    border-style: solid;
+    background-color: beige; /* change color */
+}
+.d{
+    color: blueviolet;/* change color */
+    text-decoration: none;
+    padding: 15px;
+    border-style: solid;
+    background-color: beige; /* change color */
+}
