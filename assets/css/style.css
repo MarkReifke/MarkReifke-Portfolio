@@ -61,9 +61,9 @@ body{
     background-color: beige; /* change color */
 }
 /*The following is for all the sections for About me, My work, Contact Me, Resume */
-.aa{
+.aa{ /* This is for the section */
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 500px;
     height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: cornflowerblue;/* change color */
@@ -73,18 +73,19 @@ body{
     color: darkgreen; /* change color */
     background-color: white; /* change color */
     font-weight: 900;
-    padding: 15px;
+    padding: 5px 20px 5px;
     border-style: solid;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-.bb{
+    text-align: center;        /* working here working here working here working here */
+   /* margin-top: 20px;
     margin-bottom: 20px;
-    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px; */
+}
+.bb{ /* This is for the section */
+    margin-bottom: 20px;
+    padding: 500px;
     height: 300px;
+    /*text-align: center;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkgray;/* change color */
     color: crimson;/* change color */
@@ -101,9 +102,9 @@ body{
     margin-left: 80px;
     margin-right: 80px;
 }
-.cc{
+.cc{ /* This is for the section */
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 500px;
     height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: cornflowerblue;/* change color */
@@ -121,9 +122,9 @@ body{
     margin-left: 80px;
     margin-right: 80px;
 }
-.dd{
+.dd{ /* This is for the section */
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 500px;
     height: 300px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkgray;/* change color */
@@ -136,6 +137,17 @@ body{
     padding: 15px;
     border-style: solid;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.p{  /* This is for the paragraph sections on the page */
+    text-align: center;
+}
+.img { /* This is for the placeholder img */
+    float: right;
+    padding: 25px;
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: 80px;
