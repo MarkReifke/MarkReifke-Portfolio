@@ -69,6 +69,18 @@ body{
     background-color: cornflowerblue;/* change color */
     color: crimson;/* change color */
 }
+.a1{ /* Header */
+    color: darkgreen; /* change color */
+    background-color: white; /* change color */
+    font-weight: 900;
+    padding: 15px;
+    border-style: solid;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .bb{
     margin-bottom: 20px;
     padding: 50px;
@@ -76,6 +88,18 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkgray;/* change color */
     color: crimson;/* change color */
+}
+.b1{ /* Header */
+    color: darkorange; /* change color */
+    background-color: white; /* change color */
+    font-weight: 900;
+    padding: 15px;
+    border-style: solid;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .cc{
     margin-bottom: 20px;
@@ -85,6 +109,18 @@ body{
     background-color: cornflowerblue;/* change color */
     color: crimson;/* change color */
 }
+.c1{ /* Header */
+    color: darkred; /* change color */
+    font-weight: 900;
+    background-color: white; /* change color */ 
+    padding: 15px;
+    border-style: solid;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .dd{
     margin-bottom: 20px;
     padding: 50px;
@@ -92,4 +128,16 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkgray;/* change color */
     color: crimson;/* change color */
+}
+.d1{ /* Header */
+    color: blueviolet; /* change color */
+    font-weight: 900;
+    background-color: white; /* change color */
+    padding: 15px;
+    border-style: solid;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
