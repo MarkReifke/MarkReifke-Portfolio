@@ -31,6 +31,7 @@ body{
     display: inline-block;
     margin-left: 40px;
 }
+/*The following is for the About ME, My Work, Contact Me, Resume tabs */
 .a{
     color: darkgreen;/* change color */
     text-decoration: none;
@@ -58,4 +59,37 @@ body{
     padding: 15px;
     border-style: solid;
     background-color: beige; /* change color */
+}
+/*The following is for all the sections for About me, My work, Contact Me, Resume */
+.aa{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornflowerblue;/* change color */
+    color: crimson;/* change color */
+}
+.bb{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgray;/* change color */
+    color: crimson;/* change color */
+}
+.cc{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornflowerblue;/* change color */
+    color: crimson;/* change color */
+}
+.dd{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgray;/* change color */
+    color: crimson;/* change color */
 }
