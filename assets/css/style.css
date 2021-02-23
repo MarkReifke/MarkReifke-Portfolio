@@ -3,39 +3,9 @@
     padding: 0;
     margin: 0;
 }
-
-/*.header{
-    padding-top: 15px;
-    padding-left: 30px;
-    color:darkblue;/* change color */
-    font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
+* {
+    box-sizing: border-box;
 }
-/*.header-img{
-    background-image: url(../css/img/kuwait.jpeg);
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-/*.header nav{
-    padding-top: 50px;
-    padding-right: 50px;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: 900;
-    background-color: black;/* change color and maybe fix to make fill full area */
-} 
-/*.header nav ul{ 
-    list-style-type: none;
-}
-.header nav ul li{
-    display: inline-block;
-    margin-left: 40px;
-} */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -43,15 +13,15 @@ body {
 .header {
     padding: 60px;
     text-align: center;
-    background: chartreuse;
-    color: white;
+    background-image: url("../css/img/kuwait.jpeg");
+    color: black;
 }
 .navbar{
     color: darkgreen;/* change color */
     text-decoration: none;
     padding: 15px;
     border-style: solid;
-    background-color: beige;/* change color */
+    background-color:black;/* change color */
 }
 .navbar a {
     color: white;
@@ -93,97 +63,4 @@ body {
     padding: 20px;
 }
 
-                  /*----- might delete all below this-------*/
-/*The following is for all the sections for About me, My work, Contact Me, Resume */
-/*.aa{ /* This is for the section */
-    margin-bottom: 20px;
-    padding: 500px;
-    height: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: cornflowerblue;/* change color */
-    color: crimson;/* change color */
-}
-/*.a1{ /* Header */
-    color: darkgreen; /* change color */
-    background-color: white; /* change color */
-    font-weight: 900;
-    padding: 5px 20px 5px;
-    border-style: solid;
-    text-align: center;        /* working here working here working here working here */
-   /* margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px; */
-}
-/*.bb{ /* This is for the section */
-    margin-bottom: 20px;
-    padding: 500px;
-    height: 300px;
-    /*text-align: center;*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: darkgray;/* change color */
-    color: crimson;/* change color */
-}
-/*.b1{ /* Header */
-    color: darkorange; /* change color */
-    background-color: white; /* change color */
-    font-weight: 900;
-    padding: 15px;
-    border-style: solid;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-/*.cc{ /* This is for the section */
-    margin-bottom: 20px;
-    padding: 500px;
-    height: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: cornflowerblue;/* change color */
-    color: crimson;/* change color */
-}
-/*.c1{ /* Header */
-    color: darkred; /* change color */
-    font-weight: 900;
-    background-color: white; /* change color */ 
-    padding: 15px;
-    border-style: solid;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-/*.dd{ /* This is for the section */
-    margin-bottom: 20px;
-    padding: 500px;
-    height: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: darkgray;/* change color */
-    color: crimson;/* change color */
-}
-/*.d1{ /* Header */
-    color: blueviolet; /* change color */
-    font-weight: 900;
-    background-color: white; /* change color */
-    padding: 15px;
-    border-style: solid;
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-/*.p{  /* This is for the paragraph sections on the page */
-    text-align: center;
-}
-/*.img { /* This is for the placeholder img */
-    float: right;
-    padding: 25px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-}
+ 
