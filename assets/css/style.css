@@ -3,19 +3,24 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: burlywood;/* change color */
-}
-.header{
+
+/*.header{
     padding-top: 15px;
     padding-left: 30px;
     color:darkblue;/* change color */
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
-    background-color: aquamarine;/* change color */
 }
-.header nav{
+/*.header-img{
+    background-image: url(../css/img/kuwait.jpeg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*.header nav{
     padding-top: 50px;
     padding-right: 50px;
     float: right;
@@ -23,45 +28,74 @@ body{
     font-size: 25px;
     font-weight: 900;
     background-color: black;/* change color and maybe fix to make fill full area */
-}
-.header nav ul{ 
+} 
+/*.header nav ul{ 
     list-style-type: none;
 }
 .header nav ul li{
     display: inline-block;
     margin-left: 40px;
+} */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
 }
-/*The following is for the About ME, My Work, Contact Me, Resume tabs */
-.a{
+.header {
+    padding: 60px;
+    text-align: center;
+    background: chartreuse;
+    color: white;
+}
+.navbar{
     color: darkgreen;/* change color */
     text-decoration: none;
     padding: 15px;
     border-style: solid;
     background-color: beige;/* change color */
 }
-.b{
-    color: darkorange;/* change color */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
     text-decoration: none;
-    padding: 15px;
-    border-style: solid;
-    background-color: beige;/* change color */
+    text-align: center;
 }
-.c{
-    color: darkred;/* change color */
-    text-decoration: none;
-    padding: 15px;
-    border-style: solid;
-    background-color: beige; /* change color */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }
-.d{
-    color: blueviolet;/* change color */
-    text-decoration: none;
-    padding: 15px;
-    border-style: solid;
-    background-color: beige; /* change color */
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
+.side {
+    flex: 30%;
+    background-color: green;
+    padding: 20px;
+}
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.second {
+    flex: 50%;
+    background-color: violet;
+    padding: 20px;
+}
+.third {
+    flex: 50%;
+    background-color: turquoise;
+    padding: 20px;
+}
+.placeholder {
+    background-color: tomato;
+    width: 100%;
+    padding: 20px;
+}
+
+                  /*----- might delete all below this-------*/
 /*The following is for all the sections for About me, My work, Contact Me, Resume */
-.aa{ /* This is for the section */
+/*.aa{ /* This is for the section */
     margin-bottom: 20px;
     padding: 500px;
     height: 300px;
@@ -69,7 +103,7 @@ body{
     background-color: cornflowerblue;/* change color */
     color: crimson;/* change color */
 }
-.a1{ /* Header */
+/*.a1{ /* Header */
     color: darkgreen; /* change color */
     background-color: white; /* change color */
     font-weight: 900;
@@ -81,7 +115,7 @@ body{
     margin-left: 20px;
     margin-right: 20px; */
 }
-.bb{ /* This is for the section */
+/*.bb{ /* This is for the section */
     margin-bottom: 20px;
     padding: 500px;
     height: 300px;
@@ -90,7 +124,7 @@ body{
     background-color: darkgray;/* change color */
     color: crimson;/* change color */
 }
-.b1{ /* Header */
+/*.b1{ /* Header */
     color: darkorange; /* change color */
     background-color: white; /* change color */
     font-weight: 900;
@@ -102,7 +136,7 @@ body{
     margin-left: 80px;
     margin-right: 80px;
 }
-.cc{ /* This is for the section */
+/*.cc{ /* This is for the section */
     margin-bottom: 20px;
     padding: 500px;
     height: 300px;
@@ -110,7 +144,7 @@ body{
     background-color: cornflowerblue;/* change color */
     color: crimson;/* change color */
 }
-.c1{ /* Header */
+/*.c1{ /* Header */
     color: darkred; /* change color */
     font-weight: 900;
     background-color: white; /* change color */ 
@@ -122,7 +156,7 @@ body{
     margin-left: 80px;
     margin-right: 80px;
 }
-.dd{ /* This is for the section */
+/*.dd{ /* This is for the section */
     margin-bottom: 20px;
     padding: 500px;
     height: 300px;
@@ -130,7 +164,7 @@ body{
     background-color: darkgray;/* change color */
     color: crimson;/* change color */
 }
-.d1{ /* Header */
+/*.d1{ /* Header */
     color: blueviolet; /* change color */
     font-weight: 900;
     background-color: white; /* change color */
@@ -142,10 +176,10 @@ body{
     margin-left: 80px;
     margin-right: 80px;
 }
-.p{  /* This is for the paragraph sections on the page */
+/*.p{  /* This is for the paragraph sections on the page */
     text-align: center;
 }
-.img { /* This is for the placeholder img */
+/*.img { /* This is for the placeholder img */
     float: right;
     padding: 25px;
     margin-top: 60px;
