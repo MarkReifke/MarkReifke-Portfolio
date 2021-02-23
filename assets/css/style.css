@@ -141,6 +141,7 @@ body {
     font-weight: bolder;
     text-decoration: underline;
     text-align: center;
+    word-spacing: 8px;
 }
 .placeholder {
      width: 100%;
