@@ -19,7 +19,7 @@ body {
     background-size: contain;
 }
 .header-img {
-    padding: 300px 400px;
+    padding: 500px 400px;
     position: relative;
     background-image: url("../img/kuwait2.jpg");
     background-position: center;
@@ -46,14 +46,14 @@ body {
     text-align: right;
     display: flex;
     flex-wrap: wrap;
-   /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .navbar a {
     color:black;
-    padding: 1px 15px;
+    padding: 1px 65px;
     text-decoration: none;
     text-align: right;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
