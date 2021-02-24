@@ -1,8 +1,6 @@
 # MarkReifke-Portfolio
 
-https://markreifke.github.io/MarkReifke-Portfolio/index.html
-https://github.com/MarkReifke/MarkReifke-Portfolio
-
+<p> Click the pictures below for which site you want to go to! </p>
 
 <a href="https://markreifke.github.io/MarkReifke-Portfolio/index.html"><img src="assets/img/indexhtml.jpg" alt="Code-Refractor"
           width="250" height="250"> </a>
