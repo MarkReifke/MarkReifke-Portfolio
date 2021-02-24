@@ -37,7 +37,7 @@ body {
 }
 .navbar{
     text-decoration: none;
-    padding: 30px;
+    padding: 15px;
     border-style: solid;
     background-image: url("../img/kuwait3.jpg");
     background-position: center;
@@ -46,13 +46,13 @@ body {
     text-align: right;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+   /* justify-content: space-between; */
 }
 .navbar a {
     color:black;
-    padding: .5px 75px;
+    padding: 1px 15px;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
     text-shadow: 1px 1px 1px black;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -137,6 +137,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 30px;
+    padding: 20px;
 }
 .footer {
     background-color: black;
