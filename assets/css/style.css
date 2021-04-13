@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 .body2 {
-    background-image: url("../img/ajwall2.jpg");
+    background-color: gray;
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
@@ -19,7 +19,7 @@ body {
 .header-img {
     padding: 500px 400px;
     position: relative;
-    background-image: url("../img/kuwait2.jpg");
+    background-color: gray;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@ body {
     text-decoration: none;
     padding: 15px;
     border-style: solid;
-    background-image: url("../img/kuwait3.jpg");
+    background-color: gray;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@ body {
     padding: 1px 65px;
     text-decoration: none;
     text-align: right;
-    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -74,7 +74,7 @@ body {
     padding: 20px;
     border: 10px solid;
     padding: 15px;
-    border-image: url("../img/border1.jpg") 100 stretch; 
+    border-color: black 100 stretch; 
     text-align: center;
 }
 .side-header { /* About Me */
@@ -89,7 +89,7 @@ body {
     padding: 20px;
     border: 10px solid transparent;
     padding: 15px;
-    border-image: url("../img/border1.jpg") 100 stretch;
+    border-color: black 100 stretch;
     text-align: center;
 }
 .main-header { /* My Work */
@@ -104,7 +104,7 @@ body {
     padding: 20px;
     border: 10px solid transparent;
     padding: 15px;
-    border-image: url("../img/border1.jpg") 100 stretch;
+    border-color: black 100 stretch;
     text-align: center;
 }
 .second-header{ /* Contact ME */
@@ -119,7 +119,7 @@ body {
     padding: 20px;
     border: 10px solid transparent;
     padding: 15px;
-    border-image: url("../img/border1.jpg") 100 stretch;
+    border-color: black 100 stretch;
     text-align: center;
     
 }
